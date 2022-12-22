@@ -48,7 +48,7 @@ function tareaEliminada(element) {
 }
 
 bottomEnter.addEventListener("click", () => {
-  const tarea = input.value;
+  const tarea = input.value.trim();
   if (tarea) {
     agregarTarea(tarea, id, false, false);
     LIST.push({
@@ -65,7 +65,7 @@ bottomEnter.addEventListener("click", () => {
 
 document.addEventListener("keyup", function (e) {
   if (e.key == "Enter") {
-    const tarea = input.value;
+    const tarea = input.value.trim();
     if (tarea) {
       agregarTarea(tarea, id, false, false);
       LIST.push({
