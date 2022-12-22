@@ -14,7 +14,7 @@
 
 body {
   background: linear-gradient(to bottom, var(--purple), var(--blue-light));
-  height: 94vh;
+  height: 100vh;
   font-family: "Prompt", sans-serif;
 }
 
