@@ -62,11 +62,11 @@ body {
 }
 
 .agreagar-tarea input::placeholder {
-  font-size: 1.3em;
+  font-size: 1em;
   color: var(--purple);
 }
 .agreagar-tarea i {
-  font-size: 50px;
+  font-size: 40px;
   color: var(--purple);
 }
 
